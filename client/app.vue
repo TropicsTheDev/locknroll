@@ -14,6 +14,7 @@
   --white_main: #f3f3fe;
   background-color: var(--black_main);
   font-size: 16px;
+  min-height: 100%;
 }
 
 .seminar-img,
