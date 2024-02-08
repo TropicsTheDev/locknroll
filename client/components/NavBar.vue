@@ -1,6 +1,5 @@
 <template>
   <nav class="nav-bar">
-    <h1>LOCK N' ROLL PROMOTIONS</h1>
     <ul class="nav-bar__content">
       <NavItem v-for="link in links" :navLink="link" />
     </ul>
@@ -30,7 +29,7 @@ const links = [
 
 <style scoped>
 .nav-bar {
-  background-color: var(--white_main);
+  background-color: inherit;
 }
 
 .nav-bar__content {

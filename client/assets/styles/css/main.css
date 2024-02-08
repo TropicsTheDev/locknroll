@@ -1,0 +1,55 @@
+html {
+  /* Colors */
+  --black_main: #191923;
+  --white_main: #f3f3fe;
+
+  /* Fonts */
+
+  /* Font-Sizes */
+  font-size: 16px;
+  --f-size-1: 3.815rem;
+  --f-size-2: 3.052rem;
+  --f-size-3: 2.441rem;
+  --f-size-4: 1.953rem;
+  --f-size-5: 1.563rem;
+  --f-size-6: 1.25rem;
+  --f-size-base: 1rem;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h4 {
+  margin: 0;
+}
+
+body {
+  color: var(--white_main);
+}
+
+h1 {
+  font-size: var(--f-size-1);
+  color: var(--black_main);
+}
+
+h2 {
+  font-size: var(--f-size-2);
+}
+
+h3 {
+  font-size: var(--f-size-3);
+}
+
+h4 {
+  font-size: var(--f-size-4);
+}
+
+h5 {
+  font-size: var(--f-size-5);
+}
+
+h6 {
+  font-size: var(--f-size-6);
+}
