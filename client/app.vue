@@ -1,10 +1,25 @@
 <template>
   <main class="app__main">
     <NavBar />
-    <div class="seminar-img">a</div>
-    <footer class="footer">
-      <div class="footer-container">footer n shieeeeet</div>
-    </footer>
+    <div class="banner__top">
+      <div class="banner__top-img">
+        <img src="" alt="cinematic image of grappling">
+      </div>
+    </div>
+    <div class="banner__main">
+      <img src="" alt="dark abstract triangle pattern background">
+
+      <div class="banner__main-img">
+        text
+        <img src="" alt="promotion for upcoming seminar">
+      </div>
+    </div>
+    <div class="banner__bottom">
+      <div class="banner__bottom-img">
+        <img src="" alt="cinematic image of grappling">
+      </div>
+    </div>
+
   </main>
 </template>
 
@@ -15,25 +30,16 @@
   background-color: var(--black_main);
   font-size: 16px;
   min-height: 100%;
-}
 
-.seminar-img,
-.footer-container {
+}
+.banner__main {
   background-color: var(--white_main);
+  min-height: 400px;
+  max-height: 400px;
+}
+.banner__bottom, .banner__top {
+  background-color: var(--black_main);
+  min-height: 200px;
 }
 
-.seminar-img {
-  min-height: min(50vh, 500px);
-  width: 50%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.footer-container {
-  width: 100%;
-  height: 10%;
-  position: absolute;
-  bottom: 0;
-}
 </style>
