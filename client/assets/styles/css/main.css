@@ -16,6 +16,27 @@ html {
   --f-size-base: 1rem;
 }
 
+@font-face {
+  font-family: 'jetbrains-mono-regular';
+  src: url('assets/styles/fonts/JetBrainsMono-Regular.woff2') format(woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'jetbrains-mono-bold';
+  src: url('assets/styles/fonts/JetBrainsMono-Bold.woff2') format(woff2);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'jetbrains-mono-extrabold';
+  src: url('assets/styles/fonts/JetBrainsMono-ExtraBold.woff2') format(woff2);
+  font-weight: bolder;
+  font-style: normal;
+}
+
 body,
 h1,
 h2,
@@ -26,30 +47,37 @@ h4 {
 }
 
 body {
+  font-family: "jetbrains-mono-regular";
   color: var(--white_main);
 }
 
 h1 {
+  font-family: "jetbrains-mono-extrabold";
   font-size: var(--f-size-1);
   color: var(--black_main);
 }
 
 h2 {
+  font-family: "jetbrains-mono-bold";
   font-size: var(--f-size-2);
 }
 
 h3 {
+  font-family: "jetbrains-mono-bold";
   font-size: var(--f-size-3);
 }
 
 h4 {
+  font-family: "jetbrains-mono-bold";
   font-size: var(--f-size-4);
 }
 
 h5 {
+  font-family: "jetbrains-mono-regular";
   font-size: var(--f-size-5);
 }
 
 h6 {
+  font-family: "jetbrains-mono-regular";
   font-size: var(--f-size-6);
 }
