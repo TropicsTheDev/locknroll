@@ -2,8 +2,10 @@
 
 html {
   /* Colors */
-  --black_main: #191923;
-  --white_main: #f3f3fe;
+  --color_black: #191923;
+  --color_white: #f3f3fe;
+  --color_main: #6e65d6;
+  --color_accent: #fff463;
 
   /* Fonts */
 
@@ -29,13 +31,13 @@ h4 {
 
 body {
   font-family: "hack";
-  color: var(--white_main);
+  color: var(--color_white);
 }
 
 h1 {
   font-family: "hack";
   font-size: var(--f-size-1);
-  color: var(--black_main);
+  color: var(--color_black);
 }
 
 h2 {
@@ -61,4 +63,23 @@ h5 {
 h6 {
   font-family: "hack";
   font-size: var(--f-size-6);
+}
+
+.button {
+  display: block;
+  max-width: max-content;
+  padding: var(--f-size-base);
+  background-color: var(--color_main);
+  transition: all 0.5s;
+}
+
+a.button {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--color_accent);
+  color: var(--color_black);
 }
