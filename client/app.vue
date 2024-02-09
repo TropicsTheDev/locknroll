@@ -26,7 +26,7 @@
         <aside class="featured__img-wrapper">
           <img
             class="featured__img fill-container"
-            src="assets/styles/img/JasonPoster_Final.jpeg"
+            src="assets/img/JasonPoster_Final.jpeg"
             alt="promotion for upcoming seminar"
           />
         </aside>
@@ -38,7 +38,7 @@
         <aside class="past-events__img-wrapper">
           <img
             class="past-events__img fill-container"
-            src="assets/styles/img/untitled1.png"
+            src="assets/img/untitled1.png"
             alt="cinematic picture of grappling"
           />
         </aside>
@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import "assets/styles/css/main.css";
+import "assets/styles/main.css";
 </script>
 
 <style>
@@ -87,7 +87,7 @@ import "assets/styles/css/main.css";
 
 .featured {
   /* Adding background image */
-  background-image: url("assets/styles/img/background2.jpg");
+  background-image: url("assets/img/background2.jpg");
   background-size: cover;
   background-attachment: fixed;
   padding: 0 var(--f-size-3) var(--f-size-3) var(--f-size-3);
