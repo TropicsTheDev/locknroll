@@ -17,7 +17,7 @@ const props = defineProps(["navLink"]);
   color: black;
   display: block;
   text-align: center;
-  padding: 15px;
+  padding: 0.8em;
   transition: background-color 0.75s;
 }
 .nav-item a:hover {

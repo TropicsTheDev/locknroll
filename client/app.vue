@@ -11,17 +11,21 @@
           <h3>Jason Valle</h3>
           <h4>No-Gi Jiu-Jitsu Seminar</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            urna nibh, sagittis a scelerisque in, tempor mattis arcu.
-            Pellentesque a auctor lacus. Integer lobortis molestie nulla in
-            mattis. Maecenas faucibus mi vel orci aliquam vehicula. Vivamus
-            pulvinar tempor mauris, ut vestibulum erat placerat sed. Mauris sit
-            amet orci est. Donec condimentum ut nibh sed fringilla. Aliquam
-            luctus ultricies semper. Mauris elementum, libero ac hendrerit
-            molestie, sapien sem egestas dui, vel pharetra lectus odio id ex.
-            Nam ultrices consequat luctus. Nulla auctor sem ut est dignissim, in
-            accumsan sapien congue. In vel ultrices odio, sed facilisis augue.
+            Jason Valle's No-Gi Jiu Jitsu Seminar offers a comprehensive
+            exploration of guard passing, leg lock entanglements, and
+            transitioning to advantageous positions. Renowned for his expertise,
+            Valle guides participants through breaking through defensive guards,
+            mastering leg lock dynamics, and smoothly disengaging from
+            entanglements. The seminar promises a nuanced understanding of these
+            techniques, enhancing participants' grappling skills and strategic
+            insights for effective maneuvering in the world of No-Gi Jiu Jitsu.
           </p>
+          <a
+            class="button center bold-font buy-ticket"
+            href="https://www.eventbee.com/v/jason-valle-seminar#/tickets"
+            target="_blank"
+            >Buy Ticket</a
+          >
         </article>
         <aside class="featured__img-wrapper">
           <img
@@ -79,18 +83,12 @@ import "assets/styles/main.css";
 
 .app__header {
   background-color: var(--white_main);
+  padding: var(--f-size-6);
+  padding-bottom: 0;
 }
 
 .app__header h1 {
   font-size: var(--f-size-1);
-}
-
-.featured {
-  /* Adding background image */
-  background-image: url("assets/img/background2.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 0 var(--f-size-3) var(--f-size-3) var(--f-size-3);
 }
 
 .featured__heading,
@@ -135,6 +133,18 @@ import "assets/styles/main.css";
   object-fit: contain;
 }
 
+.featured {
+  /* Adding background image */
+  background-image: url("assets/img/background2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0 var(--f-size-3) var(--f-size-3) var(--f-size-3);
+}
+
+.buy-ticket {
+  font-size: var(--f-size-6);
+}
+
 .past-events {
   background: radial-gradient(#333, #000 95%);
   background-repeat: no-repeat;
@@ -149,6 +159,10 @@ import "assets/styles/main.css";
 .center {
   margin-left: auto;
   margin-right: auto;
+}
+
+.bold-font {
+  font-weight: bold;
 }
 
 .fill-container {

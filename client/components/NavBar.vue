@@ -9,19 +9,19 @@
 <script setup>
 const links = [
   {
-    href: "gjgj",
+    href: "/",
     text: "Home",
   },
+  // {
+  //   href: "bhj",
+  //   text: "Buy Tickets",
+  // },
+  // {
+  //   href: "bjkb",
+  //   text: "Upcoming Seminars",
+  // },
   {
-    href: "bhj",
-    text: "Buy Tickets",
-  },
-  {
-    href: "bjkb",
-    text: "Upcoming Seminars",
-  },
-  {
-    href: "kjhk",
+    href: "/contact",
     text: "Contact",
   },
 ];
@@ -30,6 +30,7 @@ const links = [
 <style scoped>
 .nav-bar {
   background-color: inherit;
+  font-size: var(--f-size-6);
 }
 
 .nav-bar__content {
