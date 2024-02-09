@@ -1,3 +1,5 @@
+@import "../fonts/stylesheet.css";
+
 html {
   /* Colors */
   --black_main: #191923;
@@ -26,30 +28,37 @@ h4 {
 }
 
 body {
+  font-family: "hack";
   color: var(--white_main);
 }
 
 h1 {
+  font-family: "hack";
   font-size: var(--f-size-1);
   color: var(--black_main);
 }
 
 h2 {
+  font-family: "hack";
   font-size: var(--f-size-2);
 }
 
 h3 {
+  font-family: "hack";
   font-size: var(--f-size-3);
 }
 
 h4 {
+  font-family: "hack";
   font-size: var(--f-size-4);
 }
 
 h5 {
+  font-family: "hack";
   font-size: var(--f-size-5);
 }
 
 h6 {
+  font-family: "hack";
   font-size: var(--f-size-6);
 }
