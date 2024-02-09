@@ -18,6 +18,9 @@ html {
   --f-size-5: 1.563rem;
   --f-size-6: 1.25rem;
   --f-size-base: 1rem;
+
+  /* UI */
+  --btn-border-rad: 0.512em;
 }
 
 body,
@@ -70,6 +73,7 @@ h6 {
   max-width: max-content;
   padding: var(--f-size-base);
   background-color: var(--color_main);
+  border-radius: var(--btn-border-rad);
   transition: all 0.5s;
 }
 

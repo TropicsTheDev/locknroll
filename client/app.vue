@@ -76,19 +76,20 @@ import "assets/styles/main.css";
 
 <style>
 .app__main {
-  background-color: var(--black_main);
+  background-color: var(--color_black);
   font-size: var(--f-size-base);
   min-height: 100%;
 }
 
 .app__header {
-  background-color: var(--white_main);
+  color: var(--color_white);
   padding: var(--f-size-6);
   padding-bottom: 0;
 }
 
 .app__header h1 {
   font-size: var(--f-size-1);
+  color: var(--color_white);
 }
 
 .featured__heading,

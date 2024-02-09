@@ -14,7 +14,7 @@ const props = defineProps(["navLink"]);
 }
 .nav-item a {
   text-decoration: none;
-  color: black;
+  color: inherit;
   display: block;
   text-align: center;
   padding: 0.8em;
