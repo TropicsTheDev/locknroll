@@ -32,25 +32,19 @@
         </aside>
       </main>
     </section>
-    <section class="past-events">
-      <h2 class="past-events__heading">Past Events</h2>
-      <main class="past-events__body">
-        <aside class="past-events__img-wrapper">
-          <img
-            class="past-events__img fill-container"
-            src="assets/img/untitled1.png"
-            alt="cinematic picture of grappling"
-          />
-        </aside>
-        <article class="past-events__content">
-          <h3>Dante My Beloved</h3>
-          <h4>No-Gi Jiu Jitsu Seminar</h4>
+    <section class="about-us">
+      <h2 class="about-us__heading">About Us</h2>
+      <main class="about-us__body">
+        <article class="about-us__content center">
           <p>
             Lorem ipsum I love Dante Leon, consectetur adipiscing elit. Maecenas
             urna nibh, sagittis a scelerisque in, tempor mattis arcu.
             Pellentesque a auctor lacus. Integer lobortis molestie nulla in
             mattis. Maecenas faucibus mi vel orci aliquam vehicula. Vivamus
-            pulvinar tempor mauris, ut vestibulum erat placerat sed. Mauris sit
+            pulvinar tempor mauris, ut vestibulum erat placerat sed.
+          </p>
+          <p>
+            Mauris sit
             amet orci est. Donec condimentum ut nibh sed fringilla. Aliquam
             luctus ultricies semper. Mauris elementum, libero ac hendrerit
             molestie, sapien sem egestas dui, vel pharetra lectus odio id ex.
@@ -59,9 +53,6 @@
           </p>
         </article>
       </main>
-    </section>
-    <section class="about">
-      <div class="about__img-wrapper"></div>
     </section>
   </main>
 </template>
@@ -90,11 +81,11 @@ import "assets/styles/main.css";
   background-image: url("assets/img/background2.jpg");
   background-size: cover;
   background-attachment: fixed;
-  padding: 0 var(--f-size-3) var(--f-size-3) var(--f-size-3);
+  padding: 0 var(--f-size-3) 150px var(--f-size-3);
 }
 
 .featured__heading,
-.past-events__heading {
+.about-us__heading {
   /* Font color and aligning headings to center */
   color: var(--white_main);
   padding: var(--f-size-3);
@@ -102,7 +93,7 @@ import "assets/styles/main.css";
 }
 
 .featured__body,
-.past-events__body {
+.about-us__body {
   /* Centering */
   display: flex;
   align-items: center;
@@ -110,7 +101,7 @@ import "assets/styles/main.css";
 }
 
 .featured__content,
-.past-events__content {
+.about-us__content {
   /* Setting text requirements */
   color: var(--white_main);
   padding: var(--f-size-base);
@@ -119,30 +110,33 @@ import "assets/styles/main.css";
 }
 
 .featured__content h3,
-.past-events__content h3 {
+.about-us__content h3 {
   /* Spacing between texts */
   margin-bottom: calc(var(--f-size-base) / 2);
 }
 
-.featured__img-wrapper,
-.past-events__img-wrapper {
+.featured__img-wrapper {
   /* Setting limitations on image size */
   max-width: 640px;
 }
 
-.featured__img,
-.past-events__img {
+.featured__img {
+  box-shadow: 0px 0px 25px black;
   object-fit: contain;
 }
 
-.past-events {
+.about-us {
   background: radial-gradient(#333, #000 95%);
   background-repeat: no-repeat;
+  box-shadow: 0 -10px 25px #0A0A0A;
   padding: 0 var(--f-size-3) var(--f-size-3) var(--f-size-3);
 }
 
-.past-events__content {
-  padding-left: auto;
+.about-us__content {
+  text-align: center;
+  width: 50ch;
+  padding-top: 50px;
+  padding-bottom: 150px;
 }
 
 /* utility */
