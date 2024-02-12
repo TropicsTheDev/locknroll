@@ -1,7 +1,7 @@
 <template>
   <nav class="nav-bar">
     <ul class="nav-bar__content">
-      <NavItem v-for="link in links" :navLink="link" />
+      <NavItem v-for="(link, index) in links" :navLink="link" />
     </ul>
   </nav>
 </template>

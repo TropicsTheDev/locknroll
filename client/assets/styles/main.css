@@ -35,6 +35,7 @@ h4 {
 body {
   font-family: "hack";
   color: var(--color_white);
+  background-color: var(--color_black);
 }
 
 h1 {
