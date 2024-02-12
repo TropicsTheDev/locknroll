@@ -1,11 +1,14 @@
 <template>
-  <li class="nav-item">
+  <li class="nav-item" :class="{ 'nav-item--active': isActive }">
     <a :href="navLink.href">{{ navLink.text }}</a>
   </li>
 </template>
 
 <script setup>
 const props = defineProps(["navLink"]);
+const route = useRoute();
+
+const isActive = computed(() => props.navLink.href === route.path);
 </script>
 
 <style scoped>
@@ -22,5 +25,9 @@ const props = defineProps(["navLink"]);
 }
 .nav-item a:hover {
   background-color: #e1dff6;
+}
+
+.nav-item--active {
+  background-color: var(--color_main);
 }
 </style>
