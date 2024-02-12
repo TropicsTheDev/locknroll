@@ -88,3 +88,17 @@ a.button {
   background-color: var(--color_accent);
   color: var(--color_black);
 }
+
+/* utility */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.fill-container {
+  width: 100%;
+}

@@ -125,18 +125,4 @@
   width: 50ch;
   padding-top: 0;
 }
-
-/* utility */
-.center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bold-font {
-  font-weight: bold;
-}
-
-.fill-container {
-  width: 100%;
-}
 </style>
