@@ -102,3 +102,31 @@ a.button {
 .fill-container {
   width: 100%;
 }
+
+/* Utility */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.fill-container {
+  width: 100%;
+}
+
+/* utility */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.fill-container {
+  width: 100%;
+}
