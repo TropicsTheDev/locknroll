@@ -1,0 +1,4 @@
+class EventType {
+  name = "";
+  description = "";
+}

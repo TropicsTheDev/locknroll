@@ -20,7 +20,7 @@ const isActive = computed(() => props.navLink.href === route.path);
   color: inherit;
   display: block;
   text-align: center;
-  padding: 0.8em;
+  padding: 0.422em;
   transition: background-color 0.75s;
 }
 .nav-item a:hover {

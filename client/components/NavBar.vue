@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav-bar">
+  <nav class="nav-bar center">
     <ul class="nav-bar__content">
       <NavItem v-for="(link, index) in links" :navLink="link" />
     </ul>
@@ -30,7 +30,7 @@ const links = [
 <style scoped>
 .nav-bar {
   background-color: inherit;
-  font-size: var(--f-size-6);
+  font-size: var(--f-size-5);
 }
 
 .nav-bar__content {
@@ -38,5 +38,7 @@ const links = [
   padding: 0px;
   margin: 0px;
   overflow: hidden;
+  display: flex;
+  justify-content: end;
 }
 </style>

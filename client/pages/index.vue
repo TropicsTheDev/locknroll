@@ -57,13 +57,7 @@
   </main>
 </template>
 
-<style>
-.app__main {
-  background-color: var(--color_black);
-  font-size: var(--f-size-base);
-  min-height: 100%;
-}
-
+<style scoped>
 .featured {
   /* Adding background image */
   background-image: url("assets/img/background2.jpg");
@@ -124,19 +118,5 @@
   text-align: center;
   width: 50ch;
   padding-top: 0;
-}
-
-/* utility */
-.center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bold-font {
-  font-weight: bold;
-}
-
-.fill-container {
-  width: 100%;
 }
 </style>
